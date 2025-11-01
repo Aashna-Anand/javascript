@@ -10,9 +10,12 @@
     console.log(jsUser["email"]);
     
 
-    // to create a sumbol as a key
+    // to create a symbol
       const sym = Symbol("key1");  
-      [sym]; "value1"
+      const hello = {
+
+         [sym]: "value1",     // ye method bss. object literal ke andar hi use hota hai yaha object hello tha 
+      }
       
       // console.log(jsUser[sym]);
 
