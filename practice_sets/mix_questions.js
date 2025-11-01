@@ -87,3 +87,16 @@ let valuesArray = Object.values(obj);
 // Convert object entries into an array of [key, value] pairs
 let entriesArray = Object.entries(obj);
 // console.log(entriesArray); // output: [["name", "Alice"], ["age", 30], ["city", "New York"]]
+
+
+let val1 = 5
+let val2 = 3
+function addNum(num1,num2) {
+   let total = num1 + num2;
+   return total;
+}
+let result1 = addNum(val1, val2)
+let result2 = addNum(10,2)
+console.log(result1);
+console.log(result2);
+
